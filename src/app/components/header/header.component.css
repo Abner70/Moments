@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 1em;
+  border-bottom: 1px solid #777;
+  /* flex-direction: row; */
+  background-color: #0c326f;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+}
+
+.image h1 {
+  margin-left: 1em;
+  color: white;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: end;
+  font-size: 1.3rem;
+}
+
+.links a {
+  color: white;
+}
+
+.links a:hover {
+  color: #fde04d;
+  padding: 0.7rem;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+img {
+  width: 80px;
+  height: 90px;
+}

@@ -1,0 +1,87 @@
+.home-container h1{
+    text-align: center;
+}
+.home-container h2{
+    text-align: center;
+}
+
+.itens h3{
+    padding: 1em;
+}
+.itens h4{
+    padding: 1em;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-container h1{
+    margin-bottom: 1em;
+}
+.moments-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+}
+.moment{
+    /* width: 32%; */
+    margin-bottom: 1em;
+    text-align: center;
+}
+.moment img{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+.moment img:hover{
+    width: 349px;
+    height: 349px;
+    opacity: 0.9;
+    border: 5 px solid;
+    cursor: pointer;
+}
+.moment h3,
+.moment p{
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.moment data{
+    font-size: 0.7em;
+    font-style: italic;
+}
+a {
+    color: #dec029d5;
+    padding: 0.3em 0.6em;
+}
+a:hover{
+    background-color: #0c326f;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+.search-container{
+    margin-bottom: 2em;
+    width: 100%;
+}
+.search-container form{
+    width: 30%;
+    position: relative;
+}
+.search-container fa-icon{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.search-container input{
+    padding: 0.5em;
+    width: 100%;
+    text-align: center;
+}

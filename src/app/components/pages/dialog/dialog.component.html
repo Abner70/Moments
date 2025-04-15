@@ -1,0 +1,46 @@
+<div>
+  Olá
+
+  <mat-toolbar>
+    <span>Title</span>
+  </mat-toolbar>
+
+  <table style="width: 100%;">
+    <thead>
+      <th style=" display: flex;
+      justify-content: space-between;
+      padding: 0 24px;" class="row">
+        <div class="row-md-3">Título1</div>
+        <div class="row-md-3" >Título2</div>
+        <div class="row-md-3">Título3</div>
+      </th>
+    </thead>
+    <tbody class="row">
+      <td>
+        <tr>
+          <mat-expansion-panel class="row" [hideToggle]="false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>Tíulo</mat-panel-title>
+              <mat-panel-description>description</mat-panel-description>
+            </mat-expansion-panel-header>
+            Content that gets shown when expanded
+          </mat-expansion-panel>
+        </tr>
+        <tr>
+          <mat-expansion-panel [hideToggle]="false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>Tíulo</mat-panel-title>
+              <mat-panel-description>description</mat-panel-description>
+            </mat-expansion-panel-header>
+            Content that gets shown when expanded
+          </mat-expansion-panel>
+        </tr>
+      </td>
+
+
+
+
+    </tbody>
+  </table>
+
+</div>

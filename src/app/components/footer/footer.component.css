@@ -1,0 +1,23 @@
+footer{
+    border-top: 1px solid #dec129;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #0c326f;
+    height: 150px;
+}
+footer h3{
+    margin-bottom: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+footer span{
+    font-weight: bold;
+    color: #ffffff;
+}
+footer p {
+    font-weight: bold;
+    color: #ffffff;
+}
